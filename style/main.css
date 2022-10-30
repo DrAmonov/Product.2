@@ -95,6 +95,17 @@ img {
     margin-left: auto;
 }
 
+@media only screen and (max-width: 420px) {
+    .header__nav {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        margin-left: auto;
+    }
+}
+
 .header__link {
     margin-left: 20px;
     text-decoration: none;
@@ -160,6 +171,18 @@ img {
     font-size: 18px;
     line-height: 28px;
     color: var(--textcolor);
+}
+
+@media only screen and (max-width: 420px) {
+    .hero__inner {
+        display: block;
+        flex-direction: column-reverse;
+    }
+
+    .hero__content {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 .hero__btn {
@@ -234,6 +257,14 @@ img {
     padding: 0;
 }
 
+@media only screen and (max-width: 420px) {
+    .pro__list {
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 20px;
+    }
+}
+
 .pro__item {
     max-width: 240px;
 }
@@ -301,6 +332,13 @@ span {
     margin-top: 130px;
 }
 
+@media only screen and (max-width: 420px) {
+    .manage__inner {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
 .manage__name {
     font-weight: 600;
     font-size: 16px;
@@ -358,6 +396,12 @@ span {
     text-align: center;
     
     color: #22343D;
+}
+
+@media only screen and (max-width: 420px) {
+    .box {
+        flex-wrap: wrap;
+    }
 }
 
 .process__desc {
@@ -458,6 +502,12 @@ span {
     margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 420px) {
+    .process__btn {
+        margin-top: 50px;
+    }
+}
+
 .content {
     margin-bottom: 200px;
 }
@@ -486,6 +536,13 @@ span {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 420px) {
+    .content-list {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
 }
 
 .content-item {
@@ -545,6 +602,17 @@ span {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+@media only screen and (max-width: 420px) {
+    .price-list {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .price-item {
+        margin-top: 20px;
+    }
 }
 
 .price-item {
@@ -673,6 +741,12 @@ span {
     gap: 60px;
 }
 
+@media only screen and (max-width: 420px) {
+    .client__list {
+        flex-wrap: wrap;
+    }
+}
+
 .client__title {
     font-weight: 700;
     font-size: 34px;
@@ -780,6 +854,17 @@ span {
     align-items: center;
 }
 
+@media only screen and (max-width: 420px) {
+    .add__inner {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .link {
+        margin: 0 auto;
+    }
+}
+
 .name {
     font-weight: 600;
     font-size: 32px;
@@ -821,6 +906,13 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+@media only screen and (max-width: 420px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    } 
 }
 
 .logo {
